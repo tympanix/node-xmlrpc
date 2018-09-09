@@ -1,35 +1,43 @@
-{ "name" : "xmlrpc"
-, "description" : "A pure JavaScript XML-RPC client and server."
-, "keywords" : [ "xml-rpc", "xmlrpc", "xml", "rpc" ]
-, "version" : "1.3.2"
-, "preferGlobal" : false
-, "homepage" : "https://github.com/baalexander/node-xmlrpc"
-, "author" : "Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander)"
-, "repository" : {
-    "type" : "git"
-  , "url" : "git://github.com/baalexander/node-xmlrpc.git"
-  }
-, "bugs" : {
-    "url" : "https://github.com/baalexander/node-xmlrpc/issues"
-  }
-, "directories" : {
-    "lib" : "./lib"
-  }
-, "main" : "./lib/xmlrpc.js"
-, "dependencies" : {
-    "sax"   : "1.2.x"
-  , "xmlbuilder" : "8.2.x"
-  }
-, "devDependencies" : {
-    "vows" : "0.7.x"
-  }
-, "scripts" : {
-    "test" : "vows 'test/*.js'"
-  }
-, "engines" : {
-    "node" : ">=0.8",
-    "npm" : ">=1.0.0"
-  }
-, "license" : "MIT"
+{
+    "name": "@electorrent/xmlrpc",
+    "description": "A pure JavaScript XML-RPC client and server.",
+    "keywords": [
+        "xml-rpc",
+        "xmlrpc",
+        "xml",
+        "rpc"
+    ],
+    "version": "1.3.2",
+    "homepage": "https://github.com/tympanix/node-xmlrpc",
+    "author": "Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander)",
+    "contributors": [
+      "tympanix <tympanix@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tympanix/node-xmlrpc.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tympanix/node-xmlrpc/issues"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "main": "./lib/xmlrpc.js",
+    "dependencies": {
+        "sax": "1.2.x",
+        "urllib": "^2.29.1",
+        "xmlbuilder": "8.2.x"
+    },
+    "devDependencies": {
+        "vows": "0.7.x"
+    },
+    "scripts": {
+        "test": "vows 'test/*.js'"
+    },
+    "engines": {
+        "node": ">=0.8",
+        "npm": ">=1.0.0"
+    },
+    "license": "MIT"
 }
-
