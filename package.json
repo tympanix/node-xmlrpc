@@ -11,7 +11,7 @@
     "homepage": "https://github.com/tympanix/node-xmlrpc",
     "author": "Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander)",
     "contributors": [
-      "tympanix <tympanix@gmail.com>"
+        "tympanix <tympanix@gmail.com>"
     ],
     "repository": {
         "type": "git",
@@ -26,7 +26,7 @@
     "main": "./lib/xmlrpc.js",
     "dependencies": {
         "sax": "1.2.x",
-        "urllib": "^2.29.1",
+        "www-authenticate": "^0.6.2",
         "xmlbuilder": "8.2.x"
     },
     "devDependencies": {
