@@ -7,7 +7,7 @@
         "xml",
         "rpc"
     ],
-    "version": "1.3.2",
+    "version": "1.4.0",
     "homepage": "https://github.com/tympanix/node-xmlrpc",
     "author": "Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander)",
     "contributors": [
